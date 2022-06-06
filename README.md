@@ -1,7 +1,7 @@
 
 # BD_SMS_BOMBER
-# Unlimited sms bomber
-# coder : ROHIT
+## Unlimited sms bomber
+## coder : ROHIT
 
 # installation 
 
@@ -20,3 +20,11 @@
 ★ cd BD_SMS_BOMBER
 
 ★ python BD-SMS.py
+
+# NOTE :-
+
+★ This Tool Is Only For Educational Purpose
+
+★ gw-rohit Will Never Be Responsible For Any Misuse
+
+★ Use It At Your Own Risk
