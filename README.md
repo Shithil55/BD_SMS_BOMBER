@@ -10,4 +10,6 @@
 ★ pip install requests
 ★ pip install mechanize
 ★ pkg install git 
-★ git clone 
+★ git clone https://github.com/gw-rohit/BD_SMS_BOMBER
+★ cd BD_SMS_BOMBER
+★ python BD-SMS.py
