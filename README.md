@@ -1,7 +1,7 @@
 
 # BD_SMS_BOMBER
-
-#coder : ROHIT
+# Unlimited sms bomber
+# coder : ROHIT
 
 # installation 
 
