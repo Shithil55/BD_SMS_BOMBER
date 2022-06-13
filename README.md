@@ -5,23 +5,23 @@
 
 # installation 
 
- pkg update && pkg upgrade; 
+★ pkg update && pkg upgrade
 
- pkg install python git -y;
+★ pkg install python git -y
 
- pip install requests;
+★ pip install requests
 
- pip install mechanize;
+★ pip install mechanize
 
- pkg install git; 
+★ pkg install git
 
- git clone https://github.com/gw-rohit/BD_SMS_BOMBER;
+★ git clone https://github.com/gw-rohit/BD_SMS_BOMBER
 
- cd BD_SMS_BOMBER;
+★ cd BD_SMS_BOMBER
 
- clear;
+★ clear
 
- python BD-SMS.py;
+★ python BD-SMS.py
 
 # NOTE :-
 
