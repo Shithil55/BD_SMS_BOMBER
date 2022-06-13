@@ -19,6 +19,8 @@
 
 ★ cd BD_SMS_BOMBER
 
+★ clear
+
 ★ python BD-SMS.py
 
 # NOTE :-
